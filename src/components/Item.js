@@ -44,9 +44,9 @@ export default function Item(props) {
       {/* 👉 STEP 9 - Here go the Routes for `<current path>/shipping` and `<current path>/description` */}
       {/* These Routes should render <ItemDetails />  */}
     <Routes>
-      <Route path="shipping" element={<ItemDetails text="shipping" />}/>
+      <Route path="shipping" element={<ItemDetails text={item.shipping} />}/>
 
-      <Route path="description" element={<ItemDetails text="description" />}/>
+      <Route path="description" element={<ItemDetails text={item.description} />}/>
     </Routes>
     </div>
   )

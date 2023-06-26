@@ -8,7 +8,7 @@ export default function Home() {
 
   //useNavigate takes a string as its argument containing the path we want
   const routeToShop = () => {
-    navigate('items-list/')
+    navigate('items-list')
   }
 
   return (
